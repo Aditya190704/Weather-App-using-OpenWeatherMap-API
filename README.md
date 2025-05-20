@@ -1,27 +1,27 @@
-#🌤️ Weather App using OpenWeatherMap API
+# Weather App using OpenWeatherMap API
 This is a simple Python script that fetches and displays real-time weather information for any city using the OpenWeatherMap API.
 
-##🚀 Features
+## Features
   1. Get current weather data of any city
   2. Displays temperature, humidity, wind speed, and weather condition
   3. Uses free and public OpenWeatherMap API
   4. Outputs data in a clean and readable format
 
-##🛠️ Requirements
+## Requirements
   1. Python 3.x
   2. requests module
 
-###Install dependencies using:
+### Install dependencies using:
         pip install requests
 
-##📦 How to Use
-###Clone the repository:
+## How to Use
+### Clone the repository:
     git clone https://github.com/your-username/weather-api-python.git
     cd weather-api-python
     
-###Get your free API key from OpenWeatherMap
+### Get your free API key from OpenWeatherMap
 
-###Run the script:
+### Run the script:
 
 import requests
 
@@ -53,7 +53,7 @@ api_key = "your_api_key_here"
 get_weather(city, api_key)
 
 
-##📌 Sample Output
+## Sample Output
 🌍 Weather in Pune (IN):
 🌡️ Temperature: 28.5°C
 ☁️ Weather: Clear Sky
